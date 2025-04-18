@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: rgb(93, 204, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border:2px solid rgb(255, 18, 57);
+    border-radius: 40px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(212, 169, 242);
+}
+.card img{
+    border-radius: 40px;
+}
